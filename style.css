@@ -1,15 +1,21 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: outfit;
     text-align: center;
     font-size: 15px;
     background-color: hsl(212, 45%, 89%);
 }
-.container{
+
+.parent {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
     width: 300px;
     margin: auto;
-    margin-top: 100px;
     border-radius: 20px;
     background-color: white;
     padding: 20px;
